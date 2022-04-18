@@ -3,17 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#header{
-    height: 70px;
+body{
+    height: 200vh;
 }
-
+#header .custom-nav{
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 .custom-link ul :nth-child(3){
     background-color: blue;
     border-radius: 100px;
     padding: 2px;
 }
-
+#header .custom-nav a h3:hover{
+    color: blue;
+}
+#header .custom-nav .custom-link ul li a:hover{
+    color: rgb(113, 108, 108) !important;
+}
 img{
     width: 400px;
+}
+@media screen and (max-width:576px) {
+    main .custom-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    main .custom-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }

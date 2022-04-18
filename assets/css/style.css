@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 70px;
+}
+
+.custom-link ul :nth-child(3){
+    background-color: blue;
+    border-radius: 100px;
+    padding: 2px;
+}
+
+img{
+    width: 400px;
+}
